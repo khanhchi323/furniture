@@ -1,6 +1,6 @@
 import "./App.css";
-import Home from "./views/public/home";
-import AboutUs from "./views/public/aboutUs";
+import Home from "./views/public/Home";
+import AboutUs from "./views/public/AboutUs";
 
 function App() {
 
