@@ -10,16 +10,18 @@ import Intro8 from '/src/assets/public/noithat-intro8.jpg'
 import Intro9 from '/src/assets/public/noithat-intro9.jpg'
 
 
+
+
 export default function Container() {
     return (
-      <div style={{}} className=" m-4 mt-6">
+      <div style={{}} className=" m-4 mt-6 font-roboto">
         <div className="flex justify-between items-center ml-12 mr-12">
           <div className="  ">
             <p className=" font-bold text-2xl">New Collection</p>
             <p className=" text-gray-500">These products are made with wood from forest certified to be responsibly</p>
           </div>
           <div className="">
-            <button type="button" style={{border:'solid 2px #f5c21c'}} className="text-white bg-[#f5c21c] p-1 px-6  rounded-full hover:bg-white hover:text-[#f5c21c] transition-colors duration-300 ease-in-out">See more</button>
+            <button type="button" style={{border:'solid 2px #FFCC00'}} className=" font-serif text-white bg-yellow-400 p-1 px-6  rounded-full hover:bg-white hover:text-yellow-5  00 transition-colors duration-300 ease-in-out">See more</button>
           </div>
         </div>
 
@@ -38,8 +40,14 @@ export default function Container() {
             <img className=" h-60 w-full rounded-xl" src={Intro1} alt="" />  
           </div>
         </div>
-        
+
+        {/* <div
+            className="bg-cover bg-center h-screen "
+            style={{ backgroundImage: `url(${Background})` }}
+        ></div> */}
       </div>
+
+      
     )
   }
   
