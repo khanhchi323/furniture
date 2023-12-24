@@ -14,12 +14,12 @@ return new class extends Migration
         Schema::create('user', function (Blueprint $table) {
             $table->integer('user_id');
             $table->integer('type_account_id');
-            $table->string('username', 50)->nullable();
-            $table->string('password', 130)->nullable();
-            $table->string('avt_image', 50)->nullable();
-            $table->string('first_name', 20)->nullable();
-            $table->string('last_name', 20)->nullable();
-            $table->string('telephone', 11)->nullable();
+            $table->string('username', 50);
+            $table->string('password', 130);
+            $table->string('avt_image', 50);
+            $table->string('first_name', 20);
+            $table->string('last_name', 20);
+            $table->string('telephone', 11);
             $table->timestamps();
 
             // Chỉ định cột là khóa chính

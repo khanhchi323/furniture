@@ -10,7 +10,7 @@ import Plus from "/public/plus-circle.svg";
 export default function Header() {
   return (  
     <div
-      className="bg-cover bg-center h-screen align-middle font-roboto  "
+      className="bg-cover bg-center h-screen align-middle font-roboto"
       style={{ backgroundImage: `url(${Background})` }}
     >
       <div className="h-full">
