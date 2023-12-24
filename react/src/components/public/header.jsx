@@ -59,7 +59,7 @@ export default function Header() {
         </div>
       </nav>
 
-      <div className="flex justify-center items-center flex-col   h-[40vh] ">
+      <div className="flex justify-center items-center flex-col bg-slate-100 bg-opacity-10  h-[40vh] ">
         <p className="font-roboto leading-6 text-yellow-200   text-5xl drop-shadow-lg shadow-black">
           Enjoy a part of every day
         </p>
