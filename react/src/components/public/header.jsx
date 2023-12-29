@@ -6,6 +6,7 @@ import Search from "/public/search.svg";
 import SearchBlack from "/public/search-black.svg";
 import User from "/public/user.svg";
 import Plus from "/public/plus-circle.svg";
+import { Link } from "react-router-dom";
 
 export default function Header() {
   return (  
@@ -23,27 +24,27 @@ export default function Header() {
             <img className="  w-16 h-16" src={Logo} alt="" />
           </div>
           <div className="hidden lg:flex lg:gap-x-12 m-[4vh]">
-            <a
+            <Link
               href="#"
               class="text-md  leading-6 text-white-900 hover:text-yellow-200"
             >
               HOME
-            </a>
-            <a
+            </Link>
+            <Link
               href="#"
               class="text-md  leading-6 text-white-900 hover:text-yellow-200"
             >
               CATEGORIES
-            </a>
-            <a
+            </Link>
+            <Link to ="/LogIn"
               href="#"
               class="text-md  leading-6 text-white-900 hover:text-yellow-200"
             >
               NEW ARRIVALS
-            </a>
+            </Link>
           </div>
           <div class="m-[4vh] flex-row  items-center">
-            <a
+            <Link
               href="#"
               class=" block lg:flex flex-row lg:gap-x-6 -mx-3  rounded-lg px-3   leading-6 "
             >
@@ -54,7 +55,7 @@ export default function Header() {
                 alt=""
               />
               <img src={User} alt="" />
-            </a>
+            </Link>
           </div>
         </div>
       </nav>
