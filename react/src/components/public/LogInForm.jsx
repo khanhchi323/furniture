@@ -1,43 +1,44 @@
 import React from "react";
-export default function logInForm (){
+import videoBg from "../../assets/public/Videobg/noithat";
+
+export default function logInForm() {
   return (
-    <div className="flex items-center justify-center h-screen">
-      <form className="bg-white p-8 shadow-md rounded-md">
-        <h2 className="text-2xl font-semibold mb-6">Đăng Nhập</h2>
-        <div className="mb-4">
-          <label htmlFor="username" className="block text-gray-700 text-sm font-medium mb-2">Tên đăng nhập:</label>
-          <input
-            type="text"
-            id="username"
-            className="w-full px-3 py-2 border rounded-md focus:outline-none focus:border-blue-500"
-            value={username}
-            onChange={(e) => setUsername(e.target.value)}
-          />
+    <div>
+      <video src={videoBg} autoPlay loop muted></video>
+
+      <div className="text-white bg-transparent w-500 p-20 rounded-8 shadow-md">
+        <h2>Login</h2>
+        <div className="mr-25 mb-20 rounded-sm">
+          <label htmlFor="username">Username:</label>
+          <input type="text" id="username" className="w-full px-3 py-2 border rounded-md focus:outline-none focus:border-blue-500"/>
         </div>
-        <div className="mb-4">
-          <label htmlFor="password" className="block text-gray-700 text-sm font-medium mb-2">Mật khẩu:</label>
-          <input
-            type="password"
-            id="password"
-            className="w-full px-3 py-2 border rounded-md focus:outline-none focus:border-blue-500"
-            value={password}
-            onChange={(e) => setPassword(e.target.value)}
-          />
+
+        <div className="mr-25 mb-20 rounded-sm">
+          <label htmlFor="password">Password:</label>
+          <input type="password" id="password" className="w-full px-3 py-2 border rounded-md focus:outline-none focus:border-blue-500"/>
         </div>
-        <div className="flex items-center justify-between">
-          <button
-            type="button"
-            className="bg-blue-500 text-white px-4 py-2 rounded-md hover:bg-blue-600 focus:outline-none focus:bg-blue-600"
-            onClick={handleLogin}
-          >
-            Đăng Nhập
-          </button>
+
+        <div className="remember-forgot">
+          <label>
+            <input type="checkbox" />Remember me
+          </label>
+          <a href="#">Forgot password?</a>
         </div>
-      </form>
+
+        <button type="submit" className="btn">
+          Login
+        </button>
+
+        <div className="login-link">
+          <p>
+            Don't have an account?<a href="#">Register</a>
+          </p>
+        </div>
+      </div>
     </div>
   );
-
 }
+
 
   
 
