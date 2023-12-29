@@ -2,7 +2,7 @@ import React from "react";
 import {Routes,Route} from "react-router-dom";
 import Home from "./views/public/Home";
 import AboutUs from "./views/public/AboutUs"
-import LogIn from "./views/public/logIn";
+import Login from "./views/public/logIn";
 
 
 export default function App() {
@@ -11,7 +11,7 @@ export default function App() {
         <div>
           <Routes>
            <Route path='/' element={<Home/>}></Route>
-           <Route path='/LogIn' element={<LogIn/>}/>  
+           <Route path='/LogIn' element={<Login/>}/>  
            <Route path='/AboutUs' element={<AboutUs/>}/> 
           </Routes>
         </div>
