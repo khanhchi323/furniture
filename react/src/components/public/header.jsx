@@ -30,7 +30,7 @@ export default function Header() {
                 HOME
               </Link>
               <Link
-                to="#"
+                to="/Register"
                 class="text-md  leading-6 text-white-900 hover:text-yellow-200"
               >
                 CATEGORIES
