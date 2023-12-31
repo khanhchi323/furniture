@@ -33,7 +33,7 @@ export default function registerForm() {
                     <input className="text-base w-80 p-10px ml-8 border-solid outline rounded-xl bg-transparent text-white" type="email" id="email" name="email" required />
                 </div>
                 <button className="bg-amber-300 text-white px-2 py-1 my-3 border-none text-lg cursor-pointer rounded-full hover:bg-amber-200" type="submit">Register</button>
-                <div className="pt-3 pb-3 text-center shadow.md text-white">I already have an account <a className="decoration-none" href="/login">Log in</a>
+                <div className="pt-3 pb-3 text-center shadow.md text-white">I already have an account ? <a className="decoration-none" href="/login">Log in</a>
 
                 </div>
             </div>
