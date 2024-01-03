@@ -24,7 +24,7 @@ export default function Header() {
             </div>
             <div className="hidden lg:flex lg:gap-x-12 m-[4vh]">
               <Link
-                to=""
+                to="#"
                 class="text-md  leading-6 text-white-900 hover:text-yellow-200"
               >
                 HOME
@@ -43,7 +43,7 @@ export default function Header() {
             </div>
             <div class="m-[4vh] flex-row  items-center">
               <Link
-                to="/EditProfile"
+                to="/Profile"
                 class=" block lg:flex flex-row lg:gap-x-6 -mx-3  rounded-lg px-3   leading-6 "
               >
                 <img className="h-6 w-6" src={Cart} alt="" />
