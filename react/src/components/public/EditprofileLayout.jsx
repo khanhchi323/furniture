@@ -17,9 +17,9 @@ export default function EditProfile() {
                     </div>
                     <div className="lg:h-80 w-0.5 bg-slate-300	"></div>
                     <div className="sm:w-3/5">
-                        <div className="flex justify-between sm:block hidden ">
-                            <h2 className="text-2xl text-slate-600 ml-10  pt-3">Basic Info</h2>
-                            <div className=" w-full text-center  w-1/2  ">
+                        <div className="flex justify-between align-middle pt-5 w-5/6">
+                            <h2 className="text-2xl text-slate-600 ml-10  ">Basic Info</h2>
+                            <div className=" ">
                                 <button className=" bg-green-900 text-white  px-3 mr-3 py-0.5 text-lg cursor-pointer rounded-full hover:bg-green-700" type="submit">Cancel</button>
                                 <button className=" bg-green-900 text-white  px-3 py-0.5 text-lg cursor-pointer rounded-full hover:bg-green-700" type="submit">Save</button>
                             </div>
