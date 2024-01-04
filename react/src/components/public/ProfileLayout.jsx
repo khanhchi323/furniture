@@ -2,7 +2,7 @@ import React from "react";
 export default function ProfileLayout() {
     return (
         <div className="font-sans m-0 p-0 min-h-screen bg-cover bg-no-repeat">
-            <div className="bg-teal-700 w-full h-1/3">
+            <div className="bg-teal-700 w-full h-1/3 hidden sm:block">
                 <h2 className="p-16 pt-12 text-3xl text-white ">Individual Profile</h2>
             </div>
             <div className="flex justify-center items-center">
@@ -17,11 +17,35 @@ export default function ProfileLayout() {
 
                         <div className="h-0.5 w-6/7 bg-slate-400 mt-3 mx-auto"></div>
 
-                        <div className="mt-4">
-                            <div className="text-2xl m-1 mb-2">Date of Birth: 01/01/2003</div>
-                            <div className="text-2xl m-1 mb-2">Address: ................................. </div>
-                            <div className="text-2xl m-1 mb-2">Mail: runway@gmail.com</div>
-                            <div className="text-2xl m-1 mb-2">Phone: 0 9 0 8 8 8 6 6 6 6</div>
+        <div className="mt-4">
+          <div className="flex flex-col sm:flex-row items-center">
+           <label className="text-2xl m-1 mb-5 sm:mb-0 sm:mr-10">Date of birth:</label>
+                <select className="text-xl mb-2 sm:mb-0 sm:mr-2 p-1 border rounded">
+                     <option>1</option>
+                </select>
+                <select className="text-xl mb-2 sm:mb-0 sm:mr-2 p-1 border rounded">
+                     <option>1</option>
+                </select>
+                <select className="text-xl p-1 border rounded">
+                     <option>2003</option>
+                </select>
+        </div>
+                                     
+        <div className="flex items-center m-1 mb-2">
+          <label for="address" className="text-2xl mr-2 sm:mr-1">Address: </label>
+          <input id="address" type="text" className="p-2 border rounded-md flex-grow " placeholder="Enter your address" />
+        </div>
+                            
+        <div className="flex items-center m-1 mb-2">
+          <label for="email" className="text-2xl mr-2 sm:mr-1">Mail:</label>
+          <input id="email" type="email" className="p-2 border rounded-md flex-grow" placeholder="Enter your mail" />
+        </div>                            
+
+        <div className="flex items-center m-1 mb-2">
+           <label for="phone" className="text-2xl mr-2">Số điện thoại:</label>
+           <input id="phone" type="tel" className="p-2 border rounded-md flex-grow" placeholder="Enter your phone" />
+        </div>
+                        
                         </div>
                     </div>
                 </div>
