@@ -1,7 +1,8 @@
 import React from "react";
 import Header from "../../components/public/Header"
-import Footer from "../../components/public/Footer";
-import Container2 from "../../components/public/Container2";
+import Container2 from "../../components/public/container2";
+import Footer from "../../components/public/footer";
+
 export default function AboutUs() {
     return (
       <div>
