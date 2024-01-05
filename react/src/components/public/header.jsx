@@ -1,11 +1,13 @@
 import React from "react";
+import Navbar from "./Navbar";
 import Background from "../../assets/public/bg-main.svg";
 import Logo from "/public/logo.svg";
 import Cart from "/public/cart.svg";
 import Search from "/public/search.svg";
-import SearchBlack from "/public/search-black.svg";
 import User from "/public/user.svg";
-import { Link } from "react-router-dom";
+import SearchBlack from "/public/search-black.svg";
+
+
 
 export default function Header() {
   return (
