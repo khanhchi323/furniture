@@ -1,13 +1,9 @@
 import React from "react";
 import Intro1 from '/src/assets/public/noithat-intro1.jpg'
-import Intro2 from '/src/assets/public/noithat-intro2.jpg'
-import Intro3 from '/src/assets/public/noithat-intro3.jpg'
-import Intro4 from '/src/assets/public/noithat-intro4.jpg'
 import Intro5 from '/src/assets/public/noithat-intro5.jpeg'
 import Intro6 from '/src/assets/public/noithat-intro6.jpeg'
 import Intro7 from '/src/assets/public/noithat-intro7.jpeg'
 import Intro8 from '/src/assets/public/noithat-intro8.jpg'
-import Intro9 from '/src/assets/public/noithat-intro9.jpg'
 
 
 

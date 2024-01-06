@@ -1,5 +1,5 @@
 import React from "react";
-import Image from '../../assets/public/bg1.jpg'
+// import Image from '../../assets/public/bg1.jpg'
 export default function EditProfile() {
     return (
         <div className="font-sans m-0 p-0  bg-white h-screen">
