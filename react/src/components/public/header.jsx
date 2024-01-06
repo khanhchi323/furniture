@@ -21,7 +21,7 @@ export default function Header() {
             Enjoy a part of every day
           </p>
           <p className=" text-white mt-12">
-            Product by CCHLB
+            Product by CCHLB 
           </p>
         </div>
 
