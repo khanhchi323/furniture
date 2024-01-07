@@ -7,7 +7,7 @@ import Register from "./views/public/Register";
 import EditProfile from "./views/public/EditProfile";
 import Profile from "./views/public/Profile";
 import ProductList from "./views/public/ProductList";
-
+import ProductDetail from "./views/public/ProductDetail";
 
 export default function App() {
 
@@ -21,6 +21,7 @@ export default function App() {
         <Route path='/editprofile' element={<EditProfile />} />
         <Route path='/profile' element={<Profile />} />
         <Route path='/productlist' element={<ProductList />} />
+        <Route path='/productdetail' element={<ProductDetail />} />
       </Routes>
     </div>
   );
