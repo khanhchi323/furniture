@@ -36,7 +36,7 @@ const DropdownMenu = () => {
                             HOME
                         </Link>
                         <Link
-                            to="/Register"
+                            to="/ProductList"
                             class="text-md  leading-6 text-white-900 hover:text-yellow-200"
                         >
                             CATEGORIES
