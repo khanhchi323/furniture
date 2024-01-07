@@ -34,7 +34,8 @@ export default function Footer() {
           </div>
 
           <div>
-            <p>Trụ sở chính: 18A/1 Cộng Hòa</p>
+            <p className="whitespace-pre-wrap">Trụ sở chính: 18A/1 Cộng Hòa, 
+            Phường 4, Quận Tân Bình, Thành phố Hồ Chí Minh</p>
           </div>
 
         </div>

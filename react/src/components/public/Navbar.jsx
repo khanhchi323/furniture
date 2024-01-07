@@ -9,7 +9,7 @@ export default function Navbar() {
     return (
         <div className="h-full">
             <nav
-                class=" flex  max-w-7xl items-center justify-between p-[2vh] lg:px-8 "
+                class=" bg-[#EEEDEA] flex  max-w-7xl items-center justify-between p-[2vh] lg:px-8 "
                 aria-label="Global"
             >
                 <div className="flex lg:flex-1 h-[8vh] font-bold text-white justify-between items-center">
