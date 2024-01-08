@@ -9,6 +9,7 @@ export default function ProductDetailLayout() {
             <div className="flex flex-col sm:flex-row">
                 <div className="lg:w-1/2 ">
                     <img className="sm:w-48 h-56 w-64 m-auto lg:w-3/4 lg:h-5/6 rounded-xl" src={Intro8} alt="Hình sản phẩm" />
+                    này để thumbail
                 </div>
                 <div className="lg:w-1/2">
                     <h1 className="lg:text-3xl sm:text-base pr-5 text-xl w-full m-4">Cái name rồ đớt dài dài</h1>
@@ -31,7 +32,10 @@ export default function ProductDetailLayout() {
                     </div>
                     <div className="my-6 ml-3">SKU-</div>
                     <div className="my-6 ml-3">Category:</div>
-
+                    <div className="">
+                        <h2 className="mx-3">Chi tiết sản phẩm</h2>
+                        <div className="w-4/5 mx-3">ghế này nằm sướnggg</div>
+                    </div>
                 </div>
             </div>
         </div>
