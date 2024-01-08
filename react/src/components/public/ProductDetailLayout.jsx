@@ -8,7 +8,7 @@ export default function ProductDetailLayout() {
             </div>
             <div className="flex flex-col sm:flex-row">
                 <div className="lg:w-1/2 ">
-                    <img className="sm:w-48 h-56 w-64 m-auto lg:w-3/4 lg:h-5/6 rounded-xl" src={Intro8} alt="Hình sản phẩm" />
+                    <img className="sm:w-48 h-56 w-64 m-auto lg:w-3/4 lg:h-5/6 md:m-3 rounded-xl" src={Intro8} alt="Hình sản phẩm" />
                     này để thumbail
                 </div>
                 <div className="lg:w-1/2">
